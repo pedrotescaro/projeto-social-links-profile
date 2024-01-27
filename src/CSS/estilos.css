@@ -69,8 +69,8 @@ body {
     font-family: 'Inter-Regular';
     font-size: 28px;
     text-align: center;
+    align-items: center;
     padding: 20px 40px;
-    width: 50%;
     transition: all .3s ease-in;
 }
 
