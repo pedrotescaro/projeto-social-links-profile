@@ -3,6 +3,14 @@ body {
     color: #fff;
 }
 
+.cartao-link {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+}
+
 .cartao-link .avatar-jessica{
     border-radius: 50%;
     width: 100px; /* Ajuste conforme necessário */
@@ -72,24 +80,13 @@ body {
     align-items: center;
     padding: 20px 40px;
     transition: all .3s ease-in;
-}
-
-.btn-plataforma {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     color: #fff;
-    width: 50%;
     cursor: pointer;
 }
 
-.cartao-link {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 50px;
-    align-items: center;
-}
 
 .cartao-link .btn-plataforma .plataformas li {
     padding: 20px;
