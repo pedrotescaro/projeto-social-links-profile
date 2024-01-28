@@ -1,0 +1,36 @@
+@media (max-width: 1024px) {
+    .cartao-link .cartao {
+      width: 70%;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .cartao-link {
+      padding: 30px;
+    }
+  
+    .cartao-link .cartao {
+      align-items: center;
+      padding: 80px 20px;
+      width: 100%;
+    }
+  
+  
+    .cartao-link .informacoes .plataformas {
+      flex-direction: column;
+    }
+  
+    .btn-plataforma {
+      align-items: center;
+      margin-top: 15px;
+      padding: 15px;
+    }
+  
+  }
+  
+  @media (max-width: 425px) {
+    .cartao-link .cartao .avatar-jessica{
+      max-width: 80%;
+    }
+  }
